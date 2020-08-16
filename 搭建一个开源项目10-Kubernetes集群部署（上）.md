@@ -57,6 +57,8 @@ SELINUX=disabled
 [root@localhost ~]# sed -i 's/^SELINUX=enforcing$/SELINUX= disabled/' /etc/selinux/config
 [root@localhost ~]# yum install -y kubelet kubeadm kubectl
 ```
+![10.1](https://img-blog.csdnimg.cn/20200817001122896.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDYzMDA1MA==,size_16,color_FFFFFF,t_70#pic_center)
+
 - 未完待续
 ## 四、源码：
 - 搭建一个开源项目10-Kubernetes集群部署（上）.md
